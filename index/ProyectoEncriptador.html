@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+
+<html lang="en" >
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      
+      
+      <title>Encriptador</title>
+      <link rel="stylesheet" href="EstiloProyectoEncriptador.css">
+      
+   </head>
+
+   <body>
+      <main> 
+         <nav class="m-1">
+            <img src=" Vector.png" alt="logo">
+         </nav>
+      
+         <section>
+               <div class="row m-3">
+                   <div class="col-7 col-sm-1">
+                      <textarea name="text" class="text-area" id="text" cols="30"
+                      rows="10" placeholder="Inserte aqui su texto" autofocus></textarea>
+
+                      <p class="error m-1" id="error"><img src="Vector (2).png" alt="icono"> letras minusculas y sin acentos</p>
+                   
+           
+                   <div class="row m-1">
+                      <div class="col-5 col-sm-2 m-1">
+                         <button class="btn btn-primary" onclick="encriptar()">Encriptar</button>
+                       </div>
+
+                      <div class="col-5 col-sm-2 m-1">
+                         <button class="btn btn-info"  onclick="desencriptar()">Desencriptar</button>
+                      </div>
+                    </div>
+                 </div>
+            
+            
+
+            <div class="col-sm-2 col-4 m-1 card card2">
+            
+               <img src="1.png" alt="imagen muneco" class="image imagen" id="imagen">
+            
+               <section class="row left m-4" id="resultado">
+                  <h1 class="center">Ningun mensaje fue encontrado</h1>
+                  <p class="center">Ingresa el texto que desees encriptar o desencriptar</p>
+               </section>
+            
+               <div class="col-12">
+                  <button class="btn-info p-1 copiar" id="copiar" hidden>Copiar</button>
+               </div>
+            
+            </div>
+          </div>
+
+         
+       </section>
+      
+      </main>
+      
+      <script src="funciones.js"></script>
+
+   </body>
+
+
+
+
+</html>
+
+
+
+
